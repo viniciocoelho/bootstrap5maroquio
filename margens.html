@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margens</title>
+
+    <!-- IMPORTAÇÃO DO BOOTSTRAP -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script defer src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- IMPORTAÇÃO CDN ICONES BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<!-- 
+Usado para criar os paragrafos com as classes tudo ao mesmo tempo
+div.container>p.text-bg-dark*3
+
+m- define a margem em todos os lados do elemento por fora
+p- define o espaço interno do elemento
+
+s esquerda / e direita / t superior / b inferior
+x esquerda e direita / y acima e abaixo
+-->
+<div class="container">
+    <p class="text-bg-dark m-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim impedit atque dignissimos
+        eaque hic harum nobis eum corrupti dolor culpa!</p>
+    <p class="text-bg-dark m-3 p-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim impedit atque dignissimos
+        eaque hic harum nobis eum corrupti dolor culpa!</p>
+    <p class="text-bg-dark">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim impedit atque dignissimos
+        eaque hic harum nobis eum corrupti dolor culpa!</p>
+</div>
+
+<div class="container bg-secondary">
+    <div class="bg-primary col-4 p-5 mx-auto">
+
+    </div>
+</div>
+
+</body>
+
+</html>
